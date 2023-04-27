@@ -10,8 +10,4 @@ public partial class Item
     public string? Name { get; set; }
 
     public bool? IsComplete { get; set; }
-
-    public int? IdUser { get; set; }
-
-    public virtual User? IdUserNavigation { get; set; }
 }
